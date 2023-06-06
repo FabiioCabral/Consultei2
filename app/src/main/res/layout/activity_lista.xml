@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".Tela3Activity">
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="91dp"
+        android:layout_height="48dp"
+        android:text="@string/confirmar"
+        android:textSize="8sp"
+        tools:ignore="DuplicateSpeakableTextCheck,MissingConstraints,SmallSp"
+        tools:layout_editor_absoluteX="309dp"
+        tools:layout_editor_absoluteY="599dp" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="91dp"
+        android:layout_height="48dp"
+        android:text="@string/confirmar2"
+        android:textSize="8sp"
+        tools:ignore="MissingConstraints,SmallSp"
+        tools:layout_editor_absoluteX="309dp"
+        tools:layout_editor_absoluteY="213dp" />
+
+    <View
+        android:id="@+id/divider3"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="?android:attr/panelFullBackground"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="100dp"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="107dp"
+        android:layout_height="82dp"
+        tools:ignore="MissingConstraints,ImageContrastCheck"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="5dp"
+        tools:srcCompat="@tools:sample/avatars"
+        android:contentDescription="@string/todo8" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/f_bio_henrique_do_monte_cabral"
+        android:textColor="#000000"
+        tools:layout_editor_absoluteX="107dp"
+        tools:layout_editor_absoluteY="9dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/id_707_268"
+        android:textColor="#101010"
+        tools:layout_editor_absoluteX="107dp"
+        tools:layout_editor_absoluteY="28dp"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="18dp"
+        android:layout_height="18dp"
+        android:background="#020202"
+        app:srcCompat="@android:drawable/ic_menu_edit"
+        tools:layout_editor_absoluteX="226dp"
+        tools:layout_editor_absoluteY="29dp"
+        tools:ignore="MissingConstraints"
+        android:contentDescription="@string/todo00" />
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="98dp"
+        android:layout_height="100dp"
+        android:background="#91F695"
+        android:contentDescription="@string/todo5"
+        app:srcCompat="@android:drawable/ic_dialog_map"
+        tools:ignore="MissingConstraints,ImageContrastCheck"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="131dp" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Consulta Concluida "
+        android:textColor="#000000"
+        tools:ignore="HardcodedText,MissingConstraints"
+        tools:layout_editor_absoluteX="107dp"
+        tools:layout_editor_absoluteY="319dp" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="81dp"
+        android:layout_height="48dp"
+        android:outlineAmbientShadowColor="#C30000"
+        android:outlineSpotShadowColor="#971212"
+        android:text="@string/cancelar0"
+        android:textColorHighlight="#673AB7"
+        android:textSize="8sp"
+        tools:ignore="DuplicateSpeakableTextCheck,MissingConstraints,SmallSp"
+        tools:layout_editor_absoluteX="224dp"
+        tools:layout_editor_absoluteY="599dp" />
+
+    <TextView
+        android:id="@+id/textView21"
+        android:layout_width="272dp"
+        android:layout_height="39dp"
+        android:text="@string/endere_o_rua_s_o_pedro_712_51012_270_casa_forte"
+        tools:ignore="MissingConstraints,TextSizeCheck"
+        tools:layout_editor_absoluteX="107dp"
+        tools:layout_editor_absoluteY="365dp" />
+
+    <TextView
+        android:id="@+id/textView23"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/especialidade_oftalmologia"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="109dp"
+        tools:layout_editor_absoluteY="533dp" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Data: 29/05/2023"
+        tools:ignore="HardcodedText,MissingConstraints"
+        tools:layout_editor_absoluteX="109dp"
+        tools:layout_editor_absoluteY="213dp" />
+
+    <ImageView
+        android:id="@+id/imageView15"
+        android:layout_width="22dp"
+        android:layout_height="21dp"
+        android:contentDescription="@string/todo3"
+        app:srcCompat="@android:drawable/presence_online"
+        tools:ignore="ImageContrastCheck,MissingConstraints"
+        tools:layout_editor_absoluteX="244dp"
+        tools:layout_editor_absoluteY="319dp" />
+
+    <ImageView
+        android:id="@+id/imageView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/todo4"
+        app:srcCompat="@android:drawable/ic_menu_delete"
+        tools:ignore="ImageContrastCheck,MissingConstraints"
+        tools:layout_editor_absoluteX="2dp"
+        tools:layout_editor_absoluteY="419dp" />
+
+    <TextView
+        android:id="@+id/textView24"
+        android:layout_width="272dp"
+        android:layout_height="39dp"
+        android:text="Endereço: Rua São Pedro, 712 - 51012-270 (Casa Forte)"
+        tools:ignore="HardcodedText,MissingConstraints,TextSizeCheck"
+        tools:layout_editor_absoluteX="109dp"
+        tools:layout_editor_absoluteY="552dp" />
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="272dp"
+        android:layout_height="39dp"
+        android:text="Endereço: Rua São Pedro, 712 - 51012-270 (Casa Forte)"
+        tools:ignore="HardcodedText,MissingConstraints,TextSizeCheck"
+        tools:layout_editor_absoluteX="107dp"
+        tools:layout_editor_absoluteY="174dp" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Especialidade: Oftalmologia"
+        tools:ignore="HardcodedText,MissingConstraints"
+        tools:layout_editor_absoluteX="107dp"
+        tools:layout_editor_absoluteY="155dp" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="81dp"
+        android:layout_height="48dp"
+        android:outlineAmbientShadowColor="#C30000"
+        android:outlineSpotShadowColor="#971212"
+        android:text="@string/cancelar9"
+        android:textColorHighlight="#673AB7"
+        android:textSize="8sp"
+        tools:ignore="MissingConstraints,SmallSp"
+        tools:layout_editor_absoluteX="224dp"
+        tools:layout_editor_absoluteY="213dp" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="81dp"
+        android:layout_height="48dp"
+        android:outlineAmbientShadowColor="#C30000"
+        android:outlineSpotShadowColor="#971212"
+        android:text="Cancelar"
+        android:textColorHighlight="#673AB7"
+        android:textSize="8sp"
+        tools:ignore="HardcodedText,MissingConstraints,SmallSp"
+        tools:layout_editor_absoluteX="224dp"
+        tools:layout_editor_absoluteY="404dp" />
+
+    <ImageView
+        android:id="@+id/imageView13"
+        android:layout_width="98dp"
+        android:layout_height="100dp"
+        android:background="#91F695"
+        app:srcCompat="@android:drawable/ic_dialog_map"
+        tools:ignore="ContentDescription,ImageContrastCheck,MissingConstraints"
+        tools:layout_editor_absoluteX="2dp"
+        tools:layout_editor_absoluteY="511dp" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/aguardando_data_disponivel"
+        android:textColor="#000000"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="111dp"
+        tools:layout_editor_absoluteY="511dp" />
+
+    <ImageView
+        android:id="@+id/imageView16"
+        android:layout_width="22dp"
+        android:layout_height="28dp"
+        android:contentDescription="@string/todo"
+        app:srcCompat="@android:drawable/presence_away"
+        tools:ignore="ImageContrastCheck,MissingConstraints"
+        tools:layout_editor_absoluteX="232dp"
+        tools:layout_editor_absoluteY="127dp" />
+
+    <TextView
+        android:id="@+id/textView22"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Data: 29/05/2023"
+        tools:ignore="HardcodedText,MissingConstraints"
+        tools:layout_editor_absoluteX="111dp"
+        tools:layout_editor_absoluteY="591dp" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/consulta_solicitada5"
+        android:textColor="#000000"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="107dp"
+        tools:layout_editor_absoluteY="131dp" />
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/data_29_05_2023"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="109dp"
+        tools:layout_editor_absoluteY="404dp" />
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/especialidade_oftalmologia2"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="107dp"
+        tools:layout_editor_absoluteY="346dp" />
+
+    <ImageView
+        android:id="@+id/imageView12"
+        android:layout_width="98dp"
+        android:layout_height="100dp"
+        android:background="#91F695"
+        android:contentDescription="@string/todo7"
+        app:srcCompat="@android:drawable/ic_dialog_map"
+        tools:ignore="ImageContrastCheck,MissingConstraints"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="319dp" />
+
+    <ImageView
+        android:id="@+id/imageView17"
+        android:layout_width="22dp"
+        android:layout_height="24dp"
+        app:srcCompat="@android:drawable/presence_busy"
+        tools:layout_editor_absoluteX="300dp"
+        tools:layout_editor_absoluteY="492dp"
+        tools:ignore="ContentDescription,MissingConstraints"
+        android:contentDescription="@string/todo2" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="91dp"
+        android:layout_height="48dp"
+        android:text="@string/confirmar3"
+        android:textSize="8sp"
+        tools:ignore="MissingConstraints,SmallSp"
+        tools:layout_editor_absoluteX="309dp"
+        tools:layout_editor_absoluteY="404dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
